@@ -1,9 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Kisetsuban</title>
-    <link>https://github.com/shunnag/KisetsubanApp</link>
-    <description>Kisetsuban updates</description>
-    <language>ja</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Kisetsuban</title>
+        <link>https://github.com/shunnag/KisetsubanApp</link>
+        <description>Kisetsuban updates</description>
+        <language>ja</language>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 15 Oct 2026 16:50:33 +0900</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[自動アップデートに対応しました。
+
+- 日本語と英語に対応しました。
+- メニューバーの「アップデートを確認…」から、最新のバージョンを確認できます。自動確認と自動インストールは「設定」の「一般」で変更できます。
+- メニューバーをクリックすると、運転状況と温度をすぐに確認できます。Optionキーを押しながらクリックすると、Bluetooth受信やサーバーの詳しい情報を表示します。
+- 「設定」を「サーバー」「Bluetooth受信」「メニューバー」「一般」に整理しました。詳しい設定は「詳細…」で確認できます。
+- 「季節バンについて」で、アプリのアイコン、バージョン、クレジットを確認できます。
+- アプリのアイコンを更新しました。
+- macOS 26以降のAppleシリコン搭載Macに対応しました。
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://github.com/shunnag/KisetsubanApp/releases/download/v0.2.0-4/Kisetsuban-0.2.0-4.en.md</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://github.com/shunnag/KisetsubanApp/releases/download/v0.2.0-4/Kisetsuban-0.2.0-4.ja.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/shunnag/KisetsubanApp/releases/download/v0.2.0-4/Kisetsuban-0.2.0-4.zip" length="4457804" type="application/octet-stream" sparkle:edSignature="cTIUhjpOSRxnRQng8njy/UQ0DWCgwqgwXmvXQJOC27ajTv9Z8GyMqarWtt+wa4GO/pS+eRqv53YQCjq4ww8wDw=="/>
+        </item>
+    </channel>
 </rss>
