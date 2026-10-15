@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Kisetsuban</title>
+    <link>https://github.com/shunnag/KisetsubanApp</link>
+    <description>Kisetsuban updates</description>
+    <language>ja</language>
+  </channel>
+</rss>
