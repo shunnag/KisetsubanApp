@@ -25,6 +25,7 @@
 ]]></description>
             <sparkle:releaseNotesLink xml:lang="en">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.1-7/Kisetsuban-0.4.1-7.en.md</sparkle:releaseNotesLink>
             <sparkle:releaseNotesLink xml:lang="ja">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.1-7/Kisetsuban-0.4.1-7.ja.md</sparkle:releaseNotesLink>
+            <sparkle:fullReleaseNotesLink>https://github.com/shunnag/KisetsubanApp/releases</sparkle:fullReleaseNotesLink>
             <enclosure url="https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.1-7/Kisetsuban-0.4.1-7.zip" length="4858885" type="application/octet-stream" sparkle:edSignature="tK28NQmNBDlc0QHIyMehM8kD21T2yWDS8QyHeU7l6d6PPLyG4866CTIW77Tl3dFQx5SxnxiurP4YzCFX3B+PBg=="/>
         </item>
         <item>
@@ -52,6 +53,7 @@
 ]]></description>
             <sparkle:releaseNotesLink xml:lang="en">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.0-6/Kisetsuban-0.4.0-6.en.md</sparkle:releaseNotesLink>
             <sparkle:releaseNotesLink xml:lang="ja">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.0-6/Kisetsuban-0.4.0-6.ja.md</sparkle:releaseNotesLink>
+            <sparkle:fullReleaseNotesLink>https://github.com/shunnag/KisetsubanApp/releases</sparkle:fullReleaseNotesLink>
             <enclosure url="https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.0-6/Kisetsuban-0.4.0-6.zip" length="4752891" type="application/octet-stream" sparkle:edSignature="NDtrjyj72YIen5aGG5Texfws2msGZ2KphyqVJT5PPzFOfba4oH91Yv4gzHpj1dYqNuKuXi02Snj7jFiLYukkDQ=="/>
         </item>
         <item>
@@ -73,6 +75,7 @@
 ]]></description>
             <sparkle:releaseNotesLink xml:lang="en">https://github.com/shunnag/KisetsubanApp/releases/download/v0.2.0-4/Kisetsuban-0.2.0-4.en.md</sparkle:releaseNotesLink>
             <sparkle:releaseNotesLink xml:lang="ja">https://github.com/shunnag/KisetsubanApp/releases/download/v0.2.0-4/Kisetsuban-0.2.0-4.ja.md</sparkle:releaseNotesLink>
+            <sparkle:fullReleaseNotesLink>https://github.com/shunnag/KisetsubanApp/releases</sparkle:fullReleaseNotesLink>
             <enclosure url="https://github.com/shunnag/KisetsubanApp/releases/download/v0.2.0-4/Kisetsuban-0.2.0-4.zip" length="4457804" type="application/octet-stream" sparkle:edSignature="cTIUhjpOSRxnRQng8njy/UQ0DWCgwqgwXmvXQJOC27ajTv9Z8GyMqarWtt+wa4GO/pS+eRqv53YQCjq4ww8wDw=="/>
         </item>
     </channel>
