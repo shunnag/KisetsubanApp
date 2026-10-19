@@ -6,6 +6,33 @@
         <description>Kisetsuban updates</description>
         <language>ja</language>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Mon, 19 Oct 2026 19:04:28 +0900</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[サーバーからの通知を、Macの通知で受け取れるようになりました。サーバーの選択とペアリングも簡単になりました。
+
+- このバージョンには、受信プロトコルapi 1、通知フィード（`/api/v1/events`）、サーバーの確認（`X-Kisetsuban-Proof`）に対応したKisetsubanServer 0.4.0以降が必要です。古いサーバーでも、ペアリングしていないMacの表示は使用できます。ペアリング済みのMacはサーバーを確認できないため、送信は失敗し、ダッシュボードは表示しません。
+- 季節バン0.2.0でペアリングしたMacは、ペアリングし直す必要はありません。Bluetoothで受信した温湿度は、サーバーの受信用ポートへ送信するようになりました。受信用ポートは「サーバー」のURLから自動的に確認し、そのまま送信を続けます。
+- すでにペアリング済みのMacでは、通知は通知センターに静かに届きます。バナーで受け取るには、「設定」の「通知」にある「通知を許可…」を押してください。
+- サーバーがこのバージョンの季節バンに対応していない場合は送信を停止し、アップデートを確認します。別のサーバーに接続した場合は送信を停止し、ペアリングし直すよう表示します。
+- ペアリング済みのMacでは、熱中症などのアラート、季節の切り替え、データ取得の失敗、センサーの状態などを通知します。「Bluetoothで温湿度を受信」がオフでも、ペアリングしていれば通知を受け取れます。
+- 「設定」の「通知」で、通知のオン・オフ、表示する種類、通知の本文を表示しないかどうかを選べます。快適さの調整とレポートは、初期設定ではオフです。通知の許可は、「通知」をオンにしたときかペアリングの直後に確認します。
+- しばらく離れていたあとは、2時間以内の通知のうち重要なものを3件まで表示し、ほかはメニューの「最近の通知」に入れます。それより古い通知は「不在中の通知」としてまとめます。
+- 通知の「メイン画面を開く」で該当する画面を開き、「今日はこの種類を通知しない」でその種類の通知を今日の終わりまで止めます。
+- アラート、季節の切り替え、データ取得の失敗、センサーの状態とテスト通知は、季節バンの表示言語（日本語または英語）で表示します。快適さの調整とレポートは、サーバーの日本語のまま表示します。対応していない古いサーバーからの通知も、サーバーの日本語で表示します。
+- 「サーバー」が未設定のときは、同じネットワークでBonjourを公開しているサーバーを、名前、ホスト名、バージョンとともに一覧表示します（「設定」ウインドウを開いている間だけ探します）。「選択」を押すと、そのサーバーのURLを設定します。一覧にないサーバーは「手動で指定…」で入力できます。ペアリング済みのときは「接続を解除…」から、「ペアリングを解除…」と同じ解除ができます。
+- ペアリングにコードは不要になりました。「ペアリング」を押すと、サーバーの管理画面の「Bluetooth受信機」にこのMacの要求が表示されます。表示された6桁の番号を確かめて「許可」を押すと、ペアリングが完了します。許可を待つ間は、メニューと「設定」に「管理画面で許可してください」と番号を表示し、「キャンセル」で待機をやめられます。管理画面で許可するときに名前を変えた場合は、その名前を「受信機名」として保存します。
+- 「ペアリングを解除…」は、サーバーにも受信機の削除を伝えてから（最大5秒）、このMacのペアリングを削除します。サーバーが削除を確認できなかったときはその旨を表示するので、管理画面からも受信機を削除してください。
+- サーバーの確認：受信用ポートからの応答（204）に付く`X-Kisetsuban-Proof`を、送信したnonceとペアリングしたサーバーのIDで確認します。確認できない応答は送信の失敗として扱い、未送信の記録は残します（確認できるまで履歴は送りません）。3回続けて確認できないと、メニューに「サーバーを確認できません」と表示します。古いKisetsubanServerの応答だったときは「KisetsubanServerのアップデートが必要です」と表示します。通知だけを受け取っているMacでも、サーバーを確認できないときは同じように表示します。サーバーが新しい受信用ポートを知らせた場合も、そこで確認できるまでは以前の設定を使い続けます。ペアリング中は、確認できたサーバーのダッシュボードだけを表示し、確認に失敗し続けたサーバーの表示は止めます。
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.0-6/Kisetsuban-0.4.0-6.en.md</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.0-6/Kisetsuban-0.4.0-6.ja.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.0-6/Kisetsuban-0.4.0-6.zip" length="4752891" type="application/octet-stream" sparkle:edSignature="NDtrjyj72YIen5aGG5Texfws2msGZ2KphyqVJT5PPzFOfba4oH91Yv4gzHpj1dYqNuKuXi02Snj7jFiLYukkDQ=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Thu, 15 Oct 2026 16:50:33 +0900</pubDate>
             <sparkle:version>4</sparkle:version>
