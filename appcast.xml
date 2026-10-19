@@ -6,6 +6,27 @@
         <description>Kisetsuban updates</description>
         <language>ja</language>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Tue, 20 Oct 2026 08:11:54 +0900</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/shunnag/KisetsubanApp/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[自動アップデートを改善しました。このバージョンから、メニューを開いたり季節バンを終了したりしなくても、新しいバージョンが届くようになります（0.4.1からこのバージョンへのアップデートは、これまでどおり「アップデートを確認…」か、季節バンの終了でインストールされます）。
+
+- 「アップデートを自動的にダウンロードしてインストール」がオンのときは、ダウンロードしたアップデートを季節バンを使っていないときにインストールし、季節バンを再起動します。これまでは季節バンを終了するまでインストールされませんでした。ペアリングの許可を待っている間や解除している間、「設定」や「季節バンについて」を前面で開いている間、入力中の間、シートや確認が表示されている間、メニューを開いている間は、終わるまで待ちます。待っている間は、メニューの一番上の「再起動してアップデート（0.4.3）」などから、すぐにインストールすることもできます。再起動は「終了」と同じように受信や通知を止めてから行います。
+- 「アップデートを自動的にダウンロードしてインストール」を初期設定でオンにしました。自分で変更した設定はそのまま使います。
+- 新しいバージョンの確認を1日ごとから1時間ごとにしました。Macがスリープから復帰したときも、前回の確認から1時間以上たっていれば確認します。
+- 「アップデートを自動的にダウンロードしてインストール」がオフのときは、見つかったアップデートを他のアプリの後ろに表示する代わりに、「季節バンのアップデートがあります」と通知し（同じバージョンの通知は1日に1回まで）、メニューの一番上に「アップデートがあります（0.4.3）…」などと表示します。どちらからでもアップデートの画面を開けます。macOSで季節バンの通知が許可されていないときは、これまでどおりアップデートの画面を表示し、メニューにも表示します。
+- アップデート後に初めて起動したときは、「季節バンを0.4.2にアップデートしました」と通知します（macOSで通知が許可されている場合）。クリックするとリリースノートを開きます。
+- 「設定」の「一般」の「アップデート」に、自動的にインストールするときの動作の説明を追加しました。
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.2-8/Kisetsuban-0.4.2-8.en.md</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.2-8/Kisetsuban-0.4.2-8.ja.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.2-8/Kisetsuban-0.4.2-8.zip" length="4884665" type="application/octet-stream" sparkle:edSignature="Ra1R9/PV3Ezyx2FOi+e7DIHKUUO9PvK1W/5+KSuzTgR4/WePD5rVXPH30IeOqgFEEXp5nVTPIXqkWt/37iU+Dw=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Tue, 20 Oct 2026 05:27:23 +0900</pubDate>
             <sparkle:version>7</sparkle:version>
