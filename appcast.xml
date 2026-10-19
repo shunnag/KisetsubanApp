@@ -6,6 +6,28 @@
         <description>Kisetsuban updates</description>
         <language>ja</language>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Tue, 20 Oct 2026 05:27:23 +0900</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[サーバーに接続できなかったときに、「設定」から先へ進めなくなる問題を修正し、「設定」を新しくしました。
+
+- 「設定」をタブ（一般・サーバー・Bluetooth・通知）に分け、小さい画面でも下が切れないようにしました。各タブの高さは内容に合わせて変わり、画面に収まらないときはタブの中をスクロールできます。サーバーの状態は記号付きで表示し、ペアリングを待つ間は6桁の番号を大きく表示します。ペアリング済みのMacの「受信機名」と「受信機ID」は「サーバー」の「このMac」に移り、解除は「ペアリングを解除…」にまとめました。「通知の種類」は「通知」タブに直接表示します。
+- サーバーを選んだあとに接続できなかったり、サーバーに拒否されたりすると、「設定」の「サーバー」でほかのサーバーを選び直せず、ペアリングもできなくなる問題を修正しました。
+- 「サーバー」の「接続先」に「変更…」を追加しました。サーバーの一覧と「手動で指定…」に戻り、別のサーバーを選ぶか、入力したURLを確定するまでは今の接続先をそのまま使います。「キャンセル」で元に戻れます。ペアリング済みのMacは、これまでどおり「ペアリングを解除…」から変更します。
+- サーバーへの要求が失敗したときは「再試行」を表示します。
+- エラーの説明をわかりやすくしました。どの要求が失敗し、どうすればよいかを表示します（例：「このサーバーはこのMacからの表示を許可していません。KisetsubanServerをアップデートするか、別のサーバーを選んでください。」「サーバーに接続できません。URLが正しいか、サーバーが動いているか、このMacが同じネットワークにいるか確認してください。」）。失敗した要求のURL、HTTPステータスなどのエラーコード、日時は「詳細…」で確認できます。ペアリングに失敗したときの説明もわかりやすくしました。
+- 「ペアリング」を「サーバー」に移しました。「Bluetooth」の「近くの温湿度計から受信」がオフでもペアリングでき、通知だけを受け取ることができます。「Bluetooth」と「通知」では、「サーバー設定を表示」から「サーバー」の「ペアリング」を案内します。
+- ローカルネットワークへのアクセスが許可されていないときは、「サーバーが見つかりません」ではなく「ローカルネットワークが許可されていません」と表示して「「システム設定」＞「プライバシーとセキュリティ」＞「ローカルネットワーク」で季節バンをオンにしてください。すでにオンの場合は、季節バンを再起動してください。」と案内し、「システム設定を開く…」「季節バンを再起動」「再試行」を表示します。「システム設定」から戻ると、自動でもう一度サーバーを探します。macOSでは、許可が季節バンを開き直すまで反映されないことがあります。「季節バンを再起動」は、通常の終了と同じように受信や通知を止め（許可待ちのペアリングの要求は取り下げます）、季節バンをもう一度開きます。
+- メニューにサーバーのエラーを表示している間は、「設定を開く…」を表示します。「設定」の「サーバー」が開きます。サーバーが表示を許可していないときや、対応していないサーバーのときも、メニューに表示するようにしました。
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.1-7/Kisetsuban-0.4.1-7.en.md</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.1-7/Kisetsuban-0.4.1-7.ja.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.1-7/Kisetsuban-0.4.1-7.zip" length="4858885" type="application/octet-stream" sparkle:edSignature="tK28NQmNBDlc0QHIyMehM8kD21T2yWDS8QyHeU7l6d6PPLyG4866CTIW77Tl3dFQx5SxnxiurP4YzCFX3B+PBg=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Mon, 19 Oct 2026 19:04:28 +0900</pubDate>
             <sparkle:version>6</sparkle:version>
