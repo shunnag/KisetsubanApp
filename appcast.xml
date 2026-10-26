@@ -6,6 +6,27 @@
         <description>Kisetsuban updates</description>
         <language>ja</language>
         <item>
+            <title>0.4.3</title>
+            <pubDate>Mon, 26 Oct 2026 23:53:17 +0900</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/shunnag/KisetsubanApp/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[外出先からメイン画面を開けるようにしました。
+
+- 「メイン画面を開く」は、自宅のネットワークにつながらないときに、サーバーの外出先用のアドレス（Cloudflare Tunnel の公開ホスト名）を開くようになりました。季節バンは、このアドレスを自宅にいる間にペアリングしたサーバーから受け取って覚えます。受け取るには、サーバーをこのバージョンに対応したものに更新し、「サーバーからの通知を表示」をオンにしておきます。外出先のアドレスでは、Web のログインを求められます。
+- 通知をクリックしたときも、同じように自宅か外出先のアドレスを選んで開きます。
+- 外出先用のアドレスがまだないときは、ブラウザーでつながらないページを開く代わりに、「メイン画面は自宅のネットワークでのみ開けます」と設定方法を案内します。「このまま開く」で自宅のアドレスを開くこともできます。
+- ペアリング済みの Mac が外出先にいるときは、メニューと「設定」に「自宅のネットワーク外（戻ると自動で更新されます）」と表示します。自宅に戻ると、受信結果の送信と通知は自動で再開します。
+- 「設定」の「サーバー」の「詳細…」に「外出先」の行を追加しました。「メイン画面のURL」を空にしておくと、自宅と外出先を自動で選びます。
+- Bluetooth の受信結果を送れなかった間の記録を、サーバーが受け取った分だけ確実に消すようにしました。送り直しの途中でサーバーが一部を断ったときも、残りを送り続けます。
+]]></description>
+            <sparkle:releaseNotesLink xml:lang="en">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.3-9/Kisetsuban-0.4.3-9.en.md</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="ja">https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.3-9/Kisetsuban-0.4.3-9.ja.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/shunnag/KisetsubanApp/releases/download/v0.4.3-9/Kisetsuban-0.4.3-9.zip" length="4959798" type="application/octet-stream" sparkle:edSignature="GZb1w6N5AkIGvZiLVdTvpZlz/VfsPgju4k6fCA/0xVTIAl77F37OuiCE9XnoDD5/2hrHR3ruMKyrou5ifWwFCA=="/>
+        </item>
+        <item>
             <title>0.4.2</title>
             <pubDate>Tue, 20 Oct 2026 08:11:54 +0900</pubDate>
             <sparkle:fullReleaseNotesLink>https://github.com/shunnag/KisetsubanApp/releases</sparkle:fullReleaseNotesLink>
